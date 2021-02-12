@@ -32,7 +32,7 @@ a {
 
 /* * STYLE index.html */
 
-/* HEADER */
+/* * HEADER */
 
 .page-header {
   padding: 24px 0;
@@ -115,7 +115,7 @@ a {
   margin-right: 50px;
 }
 
-/* SECTION HERO*/
+/* * SECTION HERO */
 
 .hero {
   background-color: var(--bg-color-acent);
@@ -145,7 +145,7 @@ a {
   padding: 10px 32px;
 }
 
-/* DESCRIPTION */
+/* * DESCRIPTION */
 
 .section-description {
   margin-bottom: 94px;
@@ -177,7 +177,7 @@ a {
   color: var(--secondary-text-color);
 }
 
-/* WHAT WE DO */
+/* * WHAT WE DO */
 
 .section-work-title {
   font-size: 36px;
@@ -199,7 +199,7 @@ a {
   margin-right: 30px;
 }
 
-/* OUR TEAM */
+/* * OUR TEAM */
 
 .section-team {
   background-color: var(--bg-color-team);
@@ -241,7 +241,7 @@ a {
   margin-right: 30px;
 }
 
-/* FOOTER*/
+/* * FOOTER */
 
 .page-footer {
   background-color: var(--bg-color-acent);
