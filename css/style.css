@@ -120,6 +120,10 @@ a {
 .hero {
   background-color: var(--bg-color-acent);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 200px 0;
 }
 
