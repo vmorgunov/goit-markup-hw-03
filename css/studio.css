@@ -86,10 +86,6 @@
 .hero {
   background-color: var(--bg-color-acent);
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 200px 0;
 }
 
@@ -100,7 +96,7 @@
   color: var(--white-color);
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0 0 30px 0;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -110,6 +106,7 @@
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+  display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
 }
@@ -117,19 +114,21 @@
 /* * DESCRIPTION */
 
 .section-description {
-  padding: 94px 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-description-items {
   display: flex;
   justify-content: space-between;
-  padding-top: 94px;
-  padding-left: 0px;
-  margin: 0;
 }
 
 .section-description-item {
   width: 270px;
+}
+
+.section-description-item:nth-child(4) {
+  margin-right: 20px;
 }
 
 .section-description-title {
@@ -144,6 +143,7 @@
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);
+  padding-top: 10px;
 }
 
 /* * WHAT WE DO */
@@ -153,14 +153,15 @@
   line-height: 1.2;
   font-weight: 700;
   text-align: center;
-  margin: 0;
+  margin-right: 30px;
+  margin-bottom: 50px;
 }
 
 .section-work-items {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 0 34px 0;
+  margin: 0 0 94px 0;
 }
 
 .section-work-item {
@@ -177,7 +178,6 @@
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  margin: 0;
   padding-top: 94px;
 }
 
@@ -188,7 +188,6 @@
   align-items: center;
   padding-top: 50px;
   padding-bottom: 94px;
-  margin: 0;
 }
 
 .section-team-title {
@@ -203,6 +202,10 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
+}
+
+.section-team-container {
+  padding: 30px 0;
 }
 
 /* * FOOTER */
@@ -229,12 +232,9 @@
 }
 
 .contacts-footer-items {
-  margin: 0;
   padding: 20px 0 0 0;
 }
 
 .contacts-footer-item {
   padding-top: 9px;
 }
-
-/* * STYLE portfolio.html */
