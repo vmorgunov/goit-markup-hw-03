@@ -18,9 +18,6 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--white-color);
   color: var(--primary-text-color);
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 img {

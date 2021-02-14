@@ -87,16 +87,19 @@
   background-color: var(--bg-color-acent);
   text-align: center;
   padding: 200px 0;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
+  width: 696px;
   color: var(--white-color);
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
 }
 
 .hero-btn {
