@@ -16,22 +16,21 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
   letter-spacing: 0.03em;
-  border-color: var(var(--bg-color-team));
+  border-color: var(--bg-color-team);
   border-radius: 4px;
   border: none;
   padding: 6px 24px;
 }
 
-.gallery-filter-item .btn-active,
+.btn-active,
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--acent-color);
   color: var(--white-color);
 }
 
-.gallery-filter-items {
+.portfolio-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,8 +38,21 @@
   padding: 98px 0 0 0;
 }
 
-.gallery-filter-item {
+.portfolio-item {
   margin-right: 8px;
+}
+
+.gallery-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
+
+.gallery-item {
+  border: 1px solid #eeeeee;
+  flex-basis: calc(100% / 3 - 30px);
+  margin: 0 30px 30px 0;
 }
 
 .gallery-title {
@@ -56,18 +68,6 @@
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-}
-
-.gallery-portfolio-items {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.gallery-portfolio-item {
-  border: 1px solid #eeeeee;
-  flex-basis: calc(100% / 3 - 30px);
-  margin: 0 30px 30px 0;
 }
 
 .gallery-item-text-container {
