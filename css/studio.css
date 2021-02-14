@@ -179,6 +179,7 @@
   line-height: 1.2;
   text-align: center;
   padding-top: 94px;
+  margin-bottom: 50px;
 }
 
 .section-team-items {
@@ -186,7 +187,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
   padding-bottom: 94px;
 }
 
