@@ -54,10 +54,6 @@
   width: 270px;
 }
 
-.desc-item:nth-child(4) {
-  margin-right: 20px;
-}
-
 .desc-text {
   font-size: 14px;
   line-height: 1.7;
@@ -68,7 +64,6 @@
 /* * WORK */
 
 .work-title {
-  margin-right: 30px;
   margin-bottom: 50px;
 }
 
@@ -81,6 +76,10 @@
 
 .work-item {
   margin-right: 30px;
+}
+
+.work-item:last-child {
+  margin-right: 0;
 }
 
 /* * OUR TEAM */
@@ -114,6 +113,10 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
+}
+
+.team-item:last-child {
+  margin-right: 0;
 }
 
 .team-text {

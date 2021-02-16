@@ -47,6 +47,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 94px;
+  margin-right: -30px;
 }
 
 .gallery-item {
@@ -71,5 +72,5 @@
 }
 
 .gallery-item-text-container {
-  padding: 20px 16px;
+  padding: 20px 24px;
 }

@@ -116,7 +116,7 @@ a {
   color: var(--acent-color);
 }
 
-.contacts-header-link {
+.contact-header-item:first-of-type {
   margin-right: 50px;
 }
 
