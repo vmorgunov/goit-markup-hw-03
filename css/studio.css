@@ -86,10 +86,10 @@
 
 .team {
   background-color: var(--bg-color-team);
+  padding-top: 94px;
 }
 
 .team-title {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
